@@ -39,6 +39,7 @@ K2 = 1000/50, K1 = K2;
 int_x = [0:0.05:1];
 int_y = [0:0.05:1];
 
+%Probability density distributions
 tic
 count_cells = zeros(K1, K2);
 for k1 = 1:K1
