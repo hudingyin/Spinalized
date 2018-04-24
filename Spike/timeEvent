@@ -1,5 +1,0 @@
-% use 爱剪辑 software, a videoplayer that have ms precision, we can set the stance_start timing and the stance_end timing, got the two time point values.
-
-% then, paste the time points as two column data to neuroexplorer software, 
-
-% finally, we esalily got a dataset with event timestamps. Sent these data to matlab for further analysis.
