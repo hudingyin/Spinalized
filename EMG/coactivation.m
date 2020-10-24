@@ -5,18 +5,6 @@ function [] = coactivation_figure(emgcomp)
 %example:
 emg = randn(1000,2);
 
-
-% filter
-% [b,a]=butter(4,350/(500),'low'); %Used to remove high-frequency noise above 350Hz
-% [bb,aa]=butter(4,1/(500),'high'); %Used to remove low-frequency drift below 1Hz
-% [bbb,aaa]=butter(4,10/(500),'low'); %Used to filter to 10Hz to get envelope
-% emgdatar = detrend(emg,0);
-% EMfr=filtfilt(bb,aa,emgdatar);
-% EMGr=filtfilt(b,a,EMfr);
-% EMGabs=abs(EMGr);
-% emgdata=filtfilt(bbb,aaa,EMGabs);
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%
 EMGabs=abs(emg);
 emgdata = EMGabs;
